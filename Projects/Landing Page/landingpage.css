@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: green;
+    }
+.intro {
+}
+.below-header {
+
+}
+.below-left {
+    
+height: 150px;
+width: 300px;
+}
+.below-right {
+   
+    height: 150px;
+    width: 300px;
+}
+.middle{
+display: flex;
+flex-direction: column;
+
+}
+.top-middle{
+display: flex;
+}
+.card-container{
+display: flex;
+flex-direction: column;
+}
+.bottom-middle{
+display: flex;
+}
+.action {
+    display: flex;
+    flex-direction: column;
+    
+}
+.action-left{
+    display: flex;
+
+}
+.action-right{
+display: flex;
+
+}
+.footer {
+display: flex;
+
+}
+ul li {
+    text-decoration: none;
+    list-style:none;
+    display: inline;
+}
