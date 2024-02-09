@@ -1,3 +1,16 @@
+
+Conversation opened. 1 unread message.
+
+Skip to content
+Using Gmail with screen readers
+10 of 20,703
+css
+Inbox
+
+Ajaydeep Samra <asamra37@gmail.com>
+2:46 PM (7 hours ago)
+to me
+
 body {
     display: flex;
     flex-direction: column;
@@ -36,18 +49,48 @@ body {
 }
 .middle{
 display: flex;
+justify-content: center;
+align-items: center;
 flex-direction: column;
-
 }
-.top-middle{
-display: flex;
+.middle-header{
+    display: flex;
+    background-color: red;
+    flex: 1;
 }
 .card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    flex-grow: 0;
+    width: 60%;
+    height: 180px;
+    justify-content: space-between;
+}
+.card{
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
+flex: 0;
+flex-wrap: wrap;
+margin-top: 20px;
+background-color: orange;
 }
-.bottom-middle{
+.img{
+    display: flex;
+    border: 5px solid blue;
+    border-radius: thick;
+}
+.middle-footer{
 display: flex;
+background-color: blueviolet;
+margin-top: 5%;
+width: 100%;
+height: 175px;
+justify-content: space-around;
+align-items: center;
 }
 .action {
     display: flex;
